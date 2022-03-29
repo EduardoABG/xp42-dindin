@@ -1,3 +1,131 @@
-main{
-    padding-top: 250px;
+main > .container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controle{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parte1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 125px auto 66px auto;
+}    
+
+.div1{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 488px;
+    margin: 0 0 116px;
+}
+
+.div1 h1{
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: left;
+    width: 488px;
+    margin-top: 0;
+}
+
+.div1 p{
+    width: 360px;
+    font-weight: 400;
+    font-size: 27px;
+    color: #555555;
+    text-align: left;
+    margin-top: 0;
+}
+
+.div1 a{
+    text-decoration: none;
+    color: #FF4081;
+    font-weight: 400;
+    font-size: 27px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    padding: 8.5px 20px 8.5px 20px;
+}
+
+article > .banner1{
+    background: url('../images/ilustra-banner.png') no-repeat;
+    width: 501px;
+    height: 511px;
+    margin-top: 10px;
+}
+
+.parte2{
+    left: 0px;
+    background: #F7F7F7;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 488px;
+    margin: 109px 0 117px;
+}
+
+.div2 h3{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.div2 p{
+    text-align: center;
+    width: 293px;
+}
+
+.div2 a{
+    text-decoration: none;
+    background: #FF4081;
+    border-radius: 62px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 45px 10px 45px;
+}
+
+.div2 img{
+    height: 270px;
+}
+
+.parte3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 119px 128px 155px 225px;
+} 
+
+.parte3 h1{
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.div3{
+
+}
+
+.div3 p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 363px;
+    margin-top: 78px;
 }

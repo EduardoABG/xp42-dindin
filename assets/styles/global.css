@@ -53,6 +53,7 @@ footer{
     display: flex;
     justify-content: center;
     height: 207px;
+    margin-bottom: 0;
 }
 
 footer h2 a{
@@ -114,4 +115,18 @@ footer a{
         align-items: center;
     }
 
+}
+
+.screen-reader-only {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+textarea{
+    resize: none;
 }
