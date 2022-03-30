@@ -1,9 +1,5 @@
 main > .container{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.controle{
+    margin:  0 auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -41,7 +37,7 @@ main > .container{
     margin-top: 0;
 }
 
-.div1 a{
+.div1 a, .parte4 a{
     text-decoration: none;
     color: #FF4081;
     font-weight: 400;
@@ -49,10 +45,11 @@ main > .container{
     border: 2px solid #FF4081;
     box-sizing: border-box;
     border-radius: 62px;
-    padding: 8.5px 20px 8.5px 20px;
+    padding: 8.5px 45px 8.5px 45px;
+    
 }
 
-article > .banner1{
+div > .banner1{
     background: url('../images/ilustra-banner.png') no-repeat;
     width: 501px;
     height: 511px;
@@ -105,27 +102,98 @@ article > .banner1{
 .parte3{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 119px 128px 155px 225px;
+    justify-content: space-evenly;
+    margin: 119px 128px 155px 100px;
+    max-width: 1087px;
+    max-height: 427px;
 } 
 
-.parte3 h1{
+.parte3 h2{
     font-weight: 700;
     font-size: 37px;
     color: #009688;
     text-align: left;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
-.div3{
-
+.div3 {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 488px;
+    margin: 35px 25px 30px;
 }
 
 .div3 p{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     text-align: left;
     width: 363px;
-    margin-top: 78px;
+    margin-top: 22px;
+}
+
+.div3 img{
+    padding-right: 35px;
+    margin: 15px 0 0;
+    width: 84px;
+    height: 84px;
+}
+
+.div3 h6{
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    padding-left: 50px;
+    margin: 0 70px;
+}
+
+.parte4{
+    left: 0px;
+    background: #F7F7F7;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.controle-div{
+    left: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.parte4 h2{
+    color: #009688;
+    width: 540px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 37px;
+    margin: 80px 0px 0px 80px;;
+}
+
+.div4{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 488px;
+    margin: 109px 0 117px 80px;
+}
+
+.div4 h3{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #009688;
+    margin: 10px 0;
+}
+
+.div4 p{
+    text-align: left;
+    width: 293px;
+    margin: 0;
+}
+
+.parte4 a{
+    margin: 0 auto 55px ;
 }
