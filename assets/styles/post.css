@@ -1,0 +1,114 @@
+main > .container{
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 110px auto 100px;
+}
+
+.principal h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    margin: 0 auto;
+    color: #FF4081;
+}
+
+.principal h6{
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #9D9D9D; 
+    margin: 0 0 75px;   
+}
+
+.texto{
+    margin: 45px 0 80px;
+}
+
+.texto p, .texto2 p{
+    font-weight: 300;
+    font-size: 18px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+    max-width: 1032px;
+    margin: 35px 0 0;
+}
+
+.texto2 h3{
+    font-weight: 600;
+    font-size: 25px;
+    color: #009688;
+}
+
+.texto2{
+    margin: 0 0 80px; 
+}
+
+.parte2{
+    left: 0px;
+    background: #F7F7F7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parte2 h2{
+    width: 100%;
+    height: 20%;
+    font-weight: 500;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+    margin: 0 0 0 480px;
+    padding: 0;
+       
+}
+
+.controle{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 0 150px;
+}
+
+.cursos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 488px;
+    margin: 109px 0 117px;
+}
+
+.cursos h4{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.cursos p{
+    text-align: center;
+    width: 293px;
+}
+
+.cursos a{
+    text-decoration: none;
+    background: #FF4081;
+    border-radius: 62px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 45px 10px 45px;
+}
+
+.cursos img{
+    height: 270px;
+}
