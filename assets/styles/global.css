@@ -16,23 +16,6 @@ main{
     margin: 0;
 }
 
-@media only screen and (max-width: 769px){
-    .container{
-        width: 720px;
-    }
-
-}
-
-@media only screen and (max-width: 481px){
-    .container{
-        width: 460px;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-}
-
 header{
     background: #2E948A;
     display: flex;
@@ -136,4 +119,21 @@ footer a{
 
 textarea{
     resize: none;
+}
+
+@media only screen and (max-width: 769px){
+    .container{
+        width: 720px;
+    }
+
+}
+
+@media only screen and (max-width: 481px){
+    .container{
+        width: 460px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
