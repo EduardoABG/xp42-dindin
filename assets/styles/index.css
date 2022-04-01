@@ -102,7 +102,7 @@ article > .banner1{
 .parte3{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 119px 128px 155px 100px;
     max-width: 1087px;
     max-height: 427px;
@@ -151,7 +151,7 @@ article > .banner1{
     left: 0px;
     background: #F7F7F7;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -161,6 +161,7 @@ article > .banner1{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin-left: 80px;
 }
 
 .parte4 h2{
@@ -192,6 +193,10 @@ article > .banner1{
     text-align: left;
     width: 293px;
     margin: 0;
+}
+
+.div4 a{
+    text-decoration: none;
 }
 
 .link{
